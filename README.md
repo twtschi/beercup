@@ -13,6 +13,7 @@
     $ npm install babel -g
     $ npm install webpack -g
     $ npm install webpack-dev-server -g
+    $ npm install —save-dev react-hot-loader
     $ npm install react --save
     $ npm install react-dom --save
     
