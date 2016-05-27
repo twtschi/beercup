@@ -6,19 +6,15 @@
 2. Launch [Node.js command prompt]
 
 # make folder
-    $ mkdir "project_dir"
-    $ cd    "project_dir"
+    mkdir "project_dir"
+    cd    "project_dir"
     
 ## install related service
-    $ npm install babel -g
-    $ npm install webpack -g
-    $ npm install webpack-dev-server -g
-    $ npm install —save-dev react-hot-loader
-    $ npm install react --save
-    $ npm install react-dom --save
+    npm install babel babel-core webpack webpack-dev-server --save-dev react-hot-loader react react-dom
     
 ## start nodeJS
-    $ npm start
+    npm start //not use
+    node server.js
 
 [Reference]http://www.runoob.com/react/react-install.html
 
