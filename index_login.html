@@ -33,7 +33,7 @@
    text-align: center;
 }
 .intro-header{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 </style>
 
@@ -114,18 +114,20 @@
         <div class="container">
             <div class="row row-align">
                 
-                <a class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Login with Facebook</span></a>
-                <a class="btn btn-default btn-lg"><i class="fa fa-google fa-fw"></i> <span class="network-name">Login with Google</span></a>
-                <a class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Login</span></a>
-                <a class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Signup</span></a>
+                <a class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name" id="login_fb_btn">Login with Facebook</span></a>
+                <a class="btn btn-default btn-lg"><i class="fa fa-google fa-fw"></i> <span class="network-name" id="login_google_btn">Login with Google</span></a>
+                <a class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name" id="login_login_btn" >Login</span></a>
+                <a class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name" >Signup</span></a>
             </div>
+
 
         </div>
         <!-- /.container -->
 
     </div>
 
-
+            <div  id="login_signup_btn">
+                </div>
 	<a  name="contact"></a>
     <div class="banner">
 
@@ -191,12 +193,12 @@
     <script src="js/bootstrap.min.js"></script>
     
     <!-- Add React script-->
-    <script src="js/member.js"></script>
+    <script type="text/babel" src="js/member.js"></script>
     <script src="https://fb.me/react-0.14.0.min.js"></script>
     <script src="https://fb.me/react-dom-0.14.0.min.js"></script>
     
 
 </body>
 <!-- Import express.js -->
-     <script src = "index.js"></script>
+     <!--<script src = "index.js"></script>-->
 </html>
